@@ -39,4 +39,6 @@ a production environment.
 According to Non Functional Requirement 1) I’ve designed an utility class, called com.jpmorgan.dailytradereporting.utilities.TradesListBuilder 
 that allow to build and send sample data, so to test whole project.
 
-Attached to solution there are two
+Attached to solution there are two diagrams:
+1) Class Diagram that shows whole static relationships between classe
+2) A Sequence Diagram that shows major steps of execution of solution
