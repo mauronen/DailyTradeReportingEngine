@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.jpmorgan.dailytradereporting.DailyTradeReportingEngine" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/DailyTradeReportingEngine.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="176" x="539" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.jpmorgan.dailytradereporting.controllers.DailyTradeReportingController" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/controllers/DailyTradeReportingController.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="319" x="396" y="662"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.jpmorgan.dailytradereporting.junit.DailyTradeReportingTestUnit" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/junit/DailyTradeReportingTestUnit.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="184" x="315" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.jpmorgan.dailytradereporting.managers.CurrencyManager" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/managers/CurrencyManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="203" x="396" y="1030"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.jpmorgan.dailytradereporting.managers.TradeManager" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/managers/TradeManager.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="257" x="396" y="855"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.jpmorgan.dailytradereporting.to.TradeReport" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/to/TradeReport.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="335" x="755" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.jpmorgan.dailytradereporting.to.SettledTrade" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/to/SettledTrade.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="874" y="646"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.jpmorgan.dailytradereporting.to.Trade" project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/to/Trade.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="585" width="209" x="1130" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.jpmorgan.dailytradereporting.utilities.TradesListBuilder" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/utilities/TradesListBuilder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="243" x="113" y="662"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.jpmorgan.dailytradereporting.utilities.WorkingWeek" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/utilities/WorkingWeek.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="224" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="tradesListBuilder"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <bendpoint x="594" y="421"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="15" name="dailyRankingOutcoming"/>      
+      <multiplicity id="16" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="18" name="instance"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="reportController"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="24" name="currencyManager"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="27">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="28" name="tradeManager"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="31" name="dailyRankingIncoming"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

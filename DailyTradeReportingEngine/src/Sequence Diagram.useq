@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.0" icons="true" automaticImage="JPEG" generate-combined-fragments="true">  
+  <object id="1" language="java" name="com.jpmorgan.dailytradereporting.DailyTradeReportingEngine" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/DailyTradeReportingEngine.java" binary="false" 
+    label="dailyTradeReportingEngine" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="83" y="0"/>    
+    <execution id="2">      
+      <position height="454" width="175" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="com.jpmorgan.dailytradereporting.controllers.DailyTradeReportingController" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/controllers/DailyTradeReportingController.java" 
+    binary="false" label="dailyTradeReportingController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="255" y="0"/>    
+    <execution id="4">      
+      <position height="412" width="193" x="184" y="120"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="210" width="193" x="184" y="197"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="193" x="184" y="490"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="com.jpmorgan.dailytradereporting.managers.TradeManager" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/managers/TradeManager.java" binary="false" 
+    label="tradeManager" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="488" y="0"/>    
+    <execution id="13">      
+      <position height="168" width="190" x="381" y="218"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="105" width="190" x="381" y="260"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="190" x="381" y="324"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="21" width="190" x="381" y="420"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="com.jpmorgan.dailytradereporting.managers.CurrencyManager" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/managers/CurrencyManager.java" binary="false" 
+    label="currencyManager" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="686" y="0"/>    
+    <execution id="20">      
+      <position height="63" width="190" x="575" y="281"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="com.jpmorgan.dailytradereporting.utilities.WorkingWeek" 
+    project="DailyTradeReportingEngine" 
+    file="/DailyTradeReportingEngine/src/com/jpmorgan/dailytradereporting/utilities/WorkingWeek.java" binary="false" 
+    label="workingWeek" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="788" y="0"/>    
+    <execution id="23">      
+      <position height="21" width="178" x="769" y="302"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="createReport(java.util.Collection&lt;com.jpmorgan.dailytradereporting.to.SettledTrade&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" 
+    operation="generateTradeReport(java.util.Collection&lt;com.jpmorgan.dailytradereporting.to.SettledTrade&gt;):com.jpmorgan.dailytradereporting.to.TradeReport" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="8" operation="isBuy(com.jpmorgan.dailytradereporting.to.Trade):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="10" 
+    operation="printRanking(java.util.Set&lt;java.util.Map.Entry&lt;java.lang.Double,com.jpmorgan.dailytradereporting.to.SettledTrade&gt;&gt;):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="12" 
+    operation="adjustSettlementDay(com.jpmorgan.dailytradereporting.to.SettledTrade):com.jpmorgan.dailytradereporting.to.SettledTrade" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" operation="isWorkingDay(java.util.Date,java.lang.String):boolean" asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" 
+    operation="adjustSettlementDay(com.jpmorgan.dailytradereporting.to.SettledTrade):com.jpmorgan.dailytradereporting.to.SettledTrade" 
+    asynchronous="false" x="391" y="285">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19" operation="getWorkingWeek(java.lang.String):java.util.List&lt;String&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="22" operation="loadWorkingWeek(java.lang.String):java.util.List&lt;String&gt;" asynchronous="false">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>
+</sequence-diagram>
