@@ -34,11 +34,19 @@ D. Glossary of Terms
 E. Solution
 
 I’ve designed a solution based on Java platform that requires a Java class with main() method that can be directly launched
-to produce report. I’ve added a Junit class that can be launched to test the execution before to put the project in 
+to produce report. I’ve added a Junit class that can be launched to test the execution before to put the solution in 
 a production environment.
-According to Non Functional Requirement 1) I’ve designed an utility class, called com.jpmorgan.dailytradereporting.utilities.TradesListBuilder 
-that allow to build and send sample data, so to test whole project.
 
-Attached to solution there are two diagrams:
-1) Class Diagram that shows whole static relationships between classe
+According to Non Functional Requirement 1) I’ve designed an utility class, called com.jpmorgan.dailytradereporting.utilities.TradesListBuilder 
+that allow to build and send sample data, so to test solution.
+
+Attached to solution there are following deliverables:
+1) Class Diagram that shows whole static relationships between classes
 2) A Sequence Diagram that shows major steps of execution of solution
+3) Javadoc files
+
+F. Execution
+
+Download DailyTradeReportingEngine.jar and launch with following command to produce report:
+
+    java -jar DailyTradeReportingEngine.jar
